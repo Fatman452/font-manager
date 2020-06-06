@@ -4,7 +4,7 @@
       "target_name": "fontmanager",
       "sources": [ "src/FontManager.cc" ],
       "include_dirs" : [
-        "<!(node -e \"require('nan')\")"
+        "../nan"
       ],
       "conditions": [
         ['OS=="mac"', {
